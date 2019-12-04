@@ -1,35 +1,37 @@
 # cpp
-* Ðéº¯Êý
-  1. ÔÊÐí±»×ÓÀàÖØÐÂ¶¨ÒåµÄº¯Êý
-  2. Ðéº¯ÊýµÄ×÷ÓÃÊÇÔËÐÐÊ±¶àÌ¬µÄÊµÏÖ
-  3. Ðéº¯ÊýµÄÉùÃ÷£ºvirtual returntype func(parameter);
-  4. ¼òµ¥Ëµ¾ÍÊÇÖ¸Ïò×ÓÀà¶ÔÏóµÄ¸¸ÀàÖ¸ÕëÔÚµ÷ÓÃÐéº¯ÊýÊ±»áµ÷ÓÃ×ÓÀàº¯Êý£¬Èç¹û²»Ê¹ÓÃÐéº¯ÊýÔò»áµ÷ÓÃ¸¸Ààº¯Êý
-* ´¿Ðéº¯Êý
-  1. ´¿Ðéº¯ÊýÖ»ÎªÅÉÉú½Ó¿Ú£¬°üº¬´¿Ðéº¯ÊýµÄÀà½Ð³éÏóÀà
-  2. ³éÏóÀàÖ»ÄÜ±»¼Ì³Ð£¬ÎÞ·¨±»ÊµÀý»¯
-  3. ×ÓÀà±ØÐëÊµÏÖ½Ó¿Ú
-* Îö¹¹º¯ÊýÎªÊ²Ã´ÒªÉùÃ÷ÎªÐéº¯Êý
-  1. ±ÜÃâÄÚ´æÐ¹Â©£¬Ê¹µÃ ÊÍ·ÅÊ¹ÓÃÖ¸Ïò×ÓÀà¶ÔÏóµÄ¸¸ÀàÖ¸ÕëÊ±¿ÉÒÔ³É¹¦µ÷ÓÃ×ÓÀàÎö¹¹º¯Êý
-  2. Èô²»Ê¹ÓÃÐéº¯Êý£¬Ôò×ÓÀàÉêÇëµÄ×ÊÔ´µÃ²»µ½ÊÍ·Å
-* ++iºÍi++±È½Ï
-  1. i++·µ»ØÔ­Öµ£¬++i·µ»Ø¼Ó1ºóµÄÖµ
-  2. i++ÏÈÊ¹ÓÃi½øÐÐÔËËã£¬++iÏÈ½øÐÐ¼Ó1ÔËËã£¬iµÄÖµ¶¼Ôö¼Ó1
-  3. ++iÊÇ×óÖµ£¬¿ÉÒÔ ++i=3;½á¹ûiµÄÖµÎª3
-  4. µ±iÎªÄÚÖÃÊý¾ÝÀàÐÍÊ±£¬ÔËËãÐ§ÂÊÒ»ÖÂ
-  5. ¶ÔÓÚ×Ô¶¨ÒåÀàÐÍ£¬++iÐ§ÂÊ¸ßÓÚi++£¬Ç°Õß½«¶ÔÏó×÷Îª×óÖµ·µ»Ø£¬ºóÕßÔò°Ñ¶ÔÏóÔ­Ê¼ÖµµÄ¸±±¾×÷ÎªÓÒÖµ·µ»Ø
-* vectorµÄreserveºÍcapacityµÄÇø±ð
-  1. reserve() ÓÃÓÚÈÃÈÝÆ÷Ô¤Áô¿Õ¼ä£¬capacity()·µ»ØÈÝÆ÷×î´óÄÜÈÝÄÉÔªËØ¸öÊý
+
+* [è™šå‡½æ•°](Project/Project1/pro.md)
+  1. å…è®¸è¢«å­ç±»é‡æ–°å®šä¹‰çš„å‡½æ•°
+  2. è™šå‡½æ•°çš„ä½œç”¨æ˜¯è¿è¡Œæ—¶å¤šæ€çš„å®žçŽ°
+  3. è™šå‡½æ•°çš„å£°æ˜Žï¼švirtual returntype func(parameter);
+  4. ç®€å•è¯´å°±æ˜¯æŒ‡å‘å­ç±»å¯¹è±¡çš„çˆ¶ç±»æŒ‡é’ˆåœ¨è°ƒç”¨è™šå‡½æ•°æ—¶ä¼šè°ƒç”¨å­ç±»å‡½æ•°ï¼Œå¦‚æžœä¸ä½¿ç”¨è™šå‡½æ•°åˆ™ä¼šè°ƒç”¨çˆ¶ç±»å‡½æ•°
+  5. æŸ¥çœ‹è™šå‡½æ•°è¡¨ï¼šcl main.cpp /d1reportSingleClassLayoutB
+* çº¯è™šå‡½æ•°
+  1. çº¯è™šå‡½æ•°åªä¸ºæ´¾ç”ŸæŽ¥å£ï¼ŒåŒ…å«çº¯è™šå‡½æ•°çš„ç±»å«æŠ½è±¡ç±»
+  2. æŠ½è±¡ç±»åªèƒ½è¢«ç»§æ‰¿ï¼Œæ— æ³•è¢«å®žä¾‹åŒ–
+  3. å­ç±»å¿…é¡»å®žçŽ°æŽ¥å£
+* æžæž„å‡½æ•°ä¸ºä»€ä¹ˆè¦å£°æ˜Žä¸ºè™šå‡½æ•°
+  1. é¿å…å†…å­˜æ³„æ¼ï¼Œä½¿å¾— é‡Šæ”¾ä½¿ç”¨æŒ‡å‘å­ç±»å¯¹è±¡çš„çˆ¶ç±»æŒ‡é’ˆæ—¶å¯ä»¥æˆåŠŸè°ƒç”¨å­ç±»æžæž„å‡½æ•°
+  2. è‹¥ä¸ä½¿ç”¨è™šå‡½æ•°ï¼Œåˆ™å­ç±»ç”³è¯·çš„èµ„æºå¾—ä¸åˆ°é‡Šæ”¾
+* ++iå’Œi++æ¯”è¾ƒ
+  1. i++è¿”å›žåŽŸå€¼ï¼Œ++iè¿”å›žåŠ 1åŽçš„å€¼
+  2. i++å…ˆä½¿ç”¨iè¿›è¡Œè¿ç®—ï¼Œ++iå…ˆè¿›è¡ŒåŠ 1è¿ç®—ï¼Œiçš„å€¼éƒ½å¢žåŠ 1
+  3. ++iæ˜¯å·¦å€¼ï¼Œå¯ä»¥ ++i=3;ç»“æžœiçš„å€¼ä¸º3
+  4. å½“iä¸ºå†…ç½®æ•°æ®ç±»åž‹æ—¶ï¼Œè¿ç®—æ•ˆçŽ‡ä¸€è‡´
+  5. å¯¹äºŽè‡ªå®šä¹‰ç±»åž‹ï¼Œ++iæ•ˆçŽ‡é«˜äºŽi++ï¼Œå‰è€…å°†å¯¹è±¡ä½œä¸ºå·¦å€¼è¿”å›žï¼ŒåŽè€…åˆ™æŠŠå¯¹è±¡åŽŸå§‹å€¼çš„å‰¯æœ¬ä½œä¸ºå³å€¼è¿”å›ž
+* vectorçš„reserveå’Œcapacityçš„åŒºåˆ«
+  1. reserve() ç”¨äºŽè®©å®¹å™¨é¢„ç•™ç©ºé—´ï¼Œcapacity()è¿”å›žå®¹å™¨æœ€å¤§èƒ½å®¹çº³å…ƒç´ ä¸ªæ•°
 * const
-  1. ³£±äÁ¿£ºconst type ±äÁ¿Ãû »òÕß type const ±äÁ¿Ãû
-  2. const ÀàÐÍÖ¸Õë
-     1. constÀë¶ÔÏóÃû½ü¶ÔÏó²»ÄÜ±ä int* const pa = &a;*pa = 6;
-     2. *Àë¶ÔÏóÃû½üÖ¸Õë²»¿É±ä const int *pb = &b; b = 8;
-  3. ÐÞÊÎº¯Êý²ÎÊý£¬º¯Êý²»µÃÐÞ¸Ä²ÎÊý
-     1. void Fun(const type *param); //ÐÞÊÎÖ¸ÕëÐÍ´«Èë²ÎÊý
-     2. void Fun(const type &param); //ÐÞÊÎÒýÓÃÐÍ´«Èë²ÎÊý
-  4. ÐÞÊÎº¯Êý·µ»ØÖµ£¬·µ»ØÖµ²»¿ÉÒÔ±»ÐÞ¸Ä£¬¶øÇÒ·µ»ØÖµÐèÒª¸³¸ø³£Á¿»òÕß³£Ö¸Õë
-  5. ÐÞÊÎ³ÉÔ±º¯Êý£¬type func(type) const;
-     1. const¶ÔÏóÖ»ÄÜ·ÃÎÊconst³ÉÔ±º¯Êý,·Çconst¶ÔÏóÒ²¿ÉÒÔ·ÃÎÊconst³ÉÔ±º¯Êý
-     2. const¶ÔÏó³ÉÔ±²»ÄÜ±»ÐÞ¸Ä
-     3. const³ÉÔ±º¯Êý²»ÄÜÐÞ¸Ä³ÉÔ±Êý¾Ý
-  6. const³ÉÔ±±ØÐë³õÊ¼»¯
+  1. å¸¸å˜é‡ï¼šconst type å˜é‡å æˆ–è€… type const å˜é‡å
+  2. const ç±»åž‹æŒ‡é’ˆ
+     1. constç¦»å¯¹è±¡åè¿‘æŒ‡å‘çš„åœ°å€ä¸å¯å˜ int* const pa = &a;*pa = 6;
+     2. *ç¦»å¯¹è±¡åè¿‘æŒ‡é’ˆå†…å®¹ä¸å¯å˜ const int *pb = &b; pb = &a;
+  3. ä¿®é¥°å‡½æ•°å‚æ•°ï¼Œå‡½æ•°ä¸å¾—ä¿®æ”¹å‚æ•°
+     1. void Fun(const type *param); //ä¿®é¥°æŒ‡é’ˆåž‹ä¼ å…¥å‚æ•°
+     2. void Fun(const type &param); //ä¿®é¥°å¼•ç”¨åž‹ä¼ å…¥å‚æ•°
+  4. ä¿®é¥°å‡½æ•°è¿”å›žå€¼ï¼Œè¿”å›žå€¼ä¸å¯ä»¥è¢«ä¿®æ”¹ï¼Œè€Œä¸”è¿”å›žå€¼éœ€è¦èµ‹ç»™å¸¸é‡æˆ–è€…å¸¸æŒ‡é’ˆ
+  5. ä¿®é¥°æˆå‘˜å‡½æ•°ï¼Œtype func(type) const;
+     1. constå¯¹è±¡åªèƒ½è®¿é—®constæˆå‘˜å‡½æ•°,éžconstå¯¹è±¡ä¹Ÿå¯ä»¥è®¿é—®constæˆå‘˜å‡½æ•°
+     2. constå¯¹è±¡æˆå‘˜ä¸èƒ½è¢«ä¿®æ”¹
+     3. constæˆå‘˜å‡½æ•°ä¸èƒ½ä¿®æ”¹æˆå‘˜æ•°æ®
+  6. constæˆå‘˜å¿…é¡»åˆå§‹åŒ–

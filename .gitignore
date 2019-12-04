@@ -12,3 +12,7 @@
 /Project/.vs
 /Project/Debug
 /Project/Project1/Debug
+/Project/Project2/Debug/Project2.tlog
+/Project/Project2/Debug
+*.exe
+*.obj
