@@ -9,3 +9,5 @@
 *.opendb
 /Project2/.vs/Project2/v16
 /Project2/Debug
+/Project/.vs
+/Project/Debug
